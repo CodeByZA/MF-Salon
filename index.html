@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MF Salon</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+
+    header {
+      background: #4a148c;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .services {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 30%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MF Salon</h1>
+    <p>Style That Speaks</p>
+  </header>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Haircut</h3>
+        <img src="https://cdn.shopify.com/s/files/1/1488/1130/files/17_480x480.jpg?v=1614143713" class="image" alt="Haircut">
+        <p>Stylish cuts for child and women.</p>
+      </div>
+      <div class="card">
+        <h3>Facial</h3>
+        <img src="https://images.squarespace-cdn.com/content/v1/5d6b3013248be40001de4764/1567588578206-MZRQS3F3PRZJ9AZA2103/get-a-facial.png" class="image" alt="Facial">
+        <p>Relaxing skincare treatment.</p>
+      </div>
+      <div class="card">
+        <h3>Makeup</h3>
+        <img src="https://files.myglamm.com/site-images/original/Purple-Bridal-Smokey-Eye-Makeup.png" class="image" alt="Makeup">
+        <p>Bridal and party makeup packages.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>📞 Call us: 0300-6427320 | 📍 Gujranwala</p>
+    <p>&copy; 2025 MF Salon</p>
+  </footer>
+
+</body>
+</html>
